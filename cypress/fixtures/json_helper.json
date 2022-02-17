@@ -1,0 +1,17 @@
+{
+  "_links": {
+    "_embedded": {
+      "viaplay:blocks": [0],
+        "_embedded": {
+          // Map this 
+          "viaplay:products": [],
+            "content": {
+              "images": {
+                "boxart": {
+                  "url": "url"
+                }
+              }
+        }
+    }
+  }
+}
