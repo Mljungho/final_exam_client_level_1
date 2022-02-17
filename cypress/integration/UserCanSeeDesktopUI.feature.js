@@ -1,6 +1,6 @@
 describe("User can visit website and view the main page.", () => {
   before(() => {
-    cy.intercept("GET", "*/content.viaplay.se*", {
+    cy.intercept("GET", "**/content.viaplay.se**", {
       fixture: "viaplay_responce.json"
     });
     cy.visit("/");

@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
+import NavigationBar from "./Components/NavigationBar";
 
 const App = () => {
   return (
-    <div>
-      Hello world
-    </div>
-  )
-}
+    <React.Fragment>
+      <NavigationBar />
+    </React.Fragment>
+  );
+};
 
-export default App
-
+export default App;
