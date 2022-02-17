@@ -13,7 +13,8 @@ describe("User can visit website and view the main page.", () => {
   });
 
   describe("Main feed", () => {
-    it("is expected to see several program covers on the main page", () => {});
-    cy.get("[cy-data=program-feed]").should("exist");
+    it("is expected to see several program covers on the main page", () => {
+      cy.get("[cy-data=program-feed]").should("exist");
+    });
   });
 });
